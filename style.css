@@ -1,0 +1,53 @@
+.wraper
+{
+
+}
+
+.cabecera-pestana
+{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item-pestana
+{
+    float: left;
+    background-color: #000;
+    margin: 0px;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item-pestana.activado
+{
+    background-color: #ccc;
+
+    color: #000;
+  
+}
+
+.contenido-pestana
+{
+    list-style: none;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin: 0px;
+    padding: 20px;
+}
+
+.contenido-item-pestana{
+    float: left;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+.contenido-item-pestana.activado
+{
+  display: block;
+}
